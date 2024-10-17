@@ -1,8 +1,8 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Converters;
+namespace lucasferro0\BoletoWinner\Converters;
 
-use Claudsonm\BoletoWinner\Bill;
+use lucasferro0\BoletoWinner\Bill;
 
 interface Converter
 {
