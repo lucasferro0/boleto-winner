@@ -1,10 +1,10 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Tests\Dummies;
+namespace lucasferro0\BoletoWinner\Tests\Dummies;
 
-use Claudsonm\BoletoWinner\Bill;
-use Claudsonm\BoletoWinner\Converters\Converter;
-use Claudsonm\BoletoWinner\Validators\Validator;
+use lucasferro0\BoletoWinner\Bill;
+use lucasferro0\BoletoWinner\Converters\Converter;
+use lucasferro0\BoletoWinner\Validators\Validator;
 
 class DummyBill extends Bill
 {

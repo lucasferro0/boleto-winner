@@ -1,9 +1,9 @@
 <?php
 
-namespace Claudsonm\BoletoWinner;
+namespace lucasferro0\BoletoWinner;
 
-use Claudsonm\BoletoWinner\Converters\Converter;
-use Claudsonm\BoletoWinner\Validators\Validator;
+use lucasferro0\BoletoWinner\Converters\Converter;
+use lucasferro0\BoletoWinner\Validators\Validator;
 
 abstract class Bill
 {

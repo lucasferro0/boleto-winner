@@ -1,16 +1,16 @@
 {
-    "name": "claudsonm/boleto-winner",
+    "name": "lucasferro0/boleto-winner",
     "description": "Manipule facilmente boletos e contas de convênio.",
     "keywords": [
         "boleto", "barcode", "convenio", "validator"
     ],
-    "homepage": "https://github.com/claudsonm/boleto-winner",
+    "homepage": "https://github.com/lucasferro0/boleto-winner",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Claudson Martins",
-            "email": "claudson@outlook.com",
+            "name": "Lucas Ferro",
+            "email": "lucasferrobrandao@gmail.com",
             "role": "Maintainer"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Claudsonm\\BoletoWinner\\": "src"
+            "lucasferro0\\BoletoWinner\\": "src"
         },
         "files": [
             "src/Support/helpers.php"
@@ -31,7 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Claudsonm\\BoletoWinner\\Tests\\": "tests"
+            "lucasferro0\\BoletoWinner\\Tests\\": "tests"
         }
     },
     "scripts": {

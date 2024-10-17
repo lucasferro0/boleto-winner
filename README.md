@@ -1,12 +1,6 @@
 # Boleto Winner
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/claudsonm/boleto-winner?logo=composer)](https://packagist.org/packages/claudsonm/boleto-winner)
-[![CI](https://img.shields.io/github/workflow/status/claudsonm/boleto-winner/CI?label=CI&logo=github-actions&logoColor=fff&labelColor=2088FF)](https://github.com/claudsonm/boleto-winner/actions?query=workflow%3ACI+branch%3Amaster)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/claudsonm/boleto-winner?logo=scrutinizer-CI&labelColor=8A9296&logoColor=fff)](https://scrutinizer-ci.com/g/claudsonm/boleto-winner/?branch=master)
-[![Code Quality](https://img.shields.io/scrutinizer/quality/g/claudsonm/boleto-winner?logo=scrutinizer-ci&labelColor=8A9296&logoColor=fff)](https://scrutinizer-ci.com/g/claudsonm/boleto-winner/?branch=master)
-
-Pacote para validar, converter e obter dados contidos nos códigos de barra de
-boletos e convênios.
+Pacote para validar, converter e obter dados contidos nos códigos de barra de boletos e convênios.
 
 ## Nomenclaturas
 
@@ -33,13 +27,31 @@ que vez ou outra temos de digitar manualmente é na verdade
 You can install the package via composer:
 
 ```bash
-composer require claudsonm/boleto-winner
+composer require lucasferro0/boleto-winner
 ```
 
-## Usage
+## Usage for converters
 
-``` php
-// Usage description here
+```php
+$writableLine = BoletoWinner::toWritableLine($barcode);
+
+$barcode = BoletoWinner::toBarcode($writableLine);
+```
+
+## Usage to validate bank bill
+
+```php
+$isBankBill = (new BoletoValidator())->verifyWritableLine($writableLine);
+
+$isBankBill = (new BoletoValidator())->verifyBarcode($barcode);
+```
+
+## Usage to validate convenant bill
+
+```php
+$isConvenantBill = (new ConvenioValidator())->verifyWritableLine($writableLine);
+
+$isConvenantBill = (new ConvenioValidator())->verifyBarcode($barcode);
 ```
 
 ### Testing
@@ -58,11 +70,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email claudson@outlook.com instead of using the issue tracker.
+If you discover any security related issues, please email lucasferrobrandao@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-- [Claudson Martins](https://github.com/claudsonm)
+- [Lucas Ferro](https://github.com/lucasferro0)
 - [All Contributors](../../contributors)
 
 ## License
