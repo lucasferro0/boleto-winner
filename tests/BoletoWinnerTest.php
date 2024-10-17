@@ -1,11 +1,11 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Tests;
+namespace LucasFerro0\BoletoWinner\Tests;
 
 use BadMethodCallException;
-use lucasferro0\BoletoWinner\Bill;
-use lucasferro0\BoletoWinner\Boleto;
-use lucasferro0\BoletoWinner\BoletoWinner;
+use LucasFerro0\BoletoWinner\Bill;
+use LucasFerro0\BoletoWinner\Boleto;
+use LucasFerro0\BoletoWinner\BoletoWinner;
 use PHPUnit\Framework\TestCase;
 
 class BoletoWinnerTest extends TestCase

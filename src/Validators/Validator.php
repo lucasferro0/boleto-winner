@@ -1,6 +1,6 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Validators;
+namespace LucasFerro0\BoletoWinner\Validators;
 
 interface Validator
 {
