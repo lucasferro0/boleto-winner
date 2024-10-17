@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lucasferro0\\BoletoWinner\\": "src"
+            "LucasFerro0\\BoletoWinner\\": "src"
         },
         "files": [
             "src/Support/helpers.php"
@@ -31,7 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "lucasferro0\\BoletoWinner\\Tests\\": "tests"
+            "LucasFerro0\\BoletoWinner\\Tests\\": "tests"
         }
     },
     "scripts": {

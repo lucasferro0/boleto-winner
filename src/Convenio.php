@@ -1,11 +1,11 @@
 <?php
 
-namespace lucasferro0\BoletoWinner;
+namespace LucasFerro0\BoletoWinner;
 
-use lucasferro0\BoletoWinner\Converters\ConvenioConverter;
-use lucasferro0\BoletoWinner\Converters\Converter;
-use lucasferro0\BoletoWinner\Validators\ConvenioValidator;
-use lucasferro0\BoletoWinner\Validators\Validator;
+use LucasFerro0\BoletoWinner\Converters\ConvenioConverter;
+use LucasFerro0\BoletoWinner\Converters\Converter;
+use LucasFerro0\BoletoWinner\Validators\ConvenioValidator;
+use LucasFerro0\BoletoWinner\Validators\Validator;
 
 class Convenio extends Bill
 {

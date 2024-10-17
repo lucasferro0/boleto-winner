@@ -1,11 +1,11 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Factories;
+namespace LucasFerro0\BoletoWinner\Factories;
 
-use lucasferro0\BoletoWinner\Bill;
-use lucasferro0\BoletoWinner\Boleto;
-use lucasferro0\BoletoWinner\Convenio;
-use lucasferro0\BoletoWinner\Exceptions\BoletoWinnerException;
+use LucasFerro0\BoletoWinner\Bill;
+use LucasFerro0\BoletoWinner\Boleto;
+use LucasFerro0\BoletoWinner\Convenio;
+use LucasFerro0\BoletoWinner\Exceptions\BoletoWinnerException;
 
 class BillFactory
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Converters;
+namespace LucasFerro0\BoletoWinner\Converters;
 
-use lucasferro0\BoletoWinner\Bill;
-use lucasferro0\BoletoWinner\Convenio;
+use LucasFerro0\BoletoWinner\Bill;
+use LucasFerro0\BoletoWinner\Convenio;
 
 class ConvenioConverter implements Converter
 {
