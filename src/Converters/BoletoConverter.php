@@ -1,8 +1,8 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Converters;
+namespace LucasFerro0\BoletoWinner\Converters;
 
-use lucasferro0\BoletoWinner\Bill;
+use LucasFerro0\BoletoWinner\Bill;
 
 class BoletoConverter implements Converter
 {

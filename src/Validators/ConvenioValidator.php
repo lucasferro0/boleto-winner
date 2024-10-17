@@ -1,8 +1,8 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Validators;
+namespace LucasFerro0\BoletoWinner\Validators;
 
-use lucasferro0\BoletoWinner\Convenio;
+use LucasFerro0\BoletoWinner\Convenio;
 
 class ConvenioValidator implements Validator
 {

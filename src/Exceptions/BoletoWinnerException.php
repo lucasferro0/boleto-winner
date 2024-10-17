@@ -1,6 +1,6 @@
 <?php
 
-namespace lucasferro0\BoletoWinner\Exceptions;
+namespace LucasFerro0\BoletoWinner\Exceptions;
 
 class BoletoWinnerException extends \Exception
 {

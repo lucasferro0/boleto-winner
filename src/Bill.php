@@ -1,9 +1,9 @@
 <?php
 
-namespace lucasferro0\BoletoWinner;
+namespace LucasFerro0\BoletoWinner;
 
-use lucasferro0\BoletoWinner\Converters\Converter;
-use lucasferro0\BoletoWinner\Validators\Validator;
+use LucasFerro0\BoletoWinner\Converters\Converter;
+use LucasFerro0\BoletoWinner\Validators\Validator;
 
 abstract class Bill
 {
