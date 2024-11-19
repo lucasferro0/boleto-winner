@@ -1,8 +1,8 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Tests;
+namespace BoletoWinner\Tests;
 
-use Claudsonm\BoletoWinner\Boleto;
+use BoletoWinner\Boleto;
 use PHPUnit\Framework\TestCase;
 
 class BoletoTest extends TestCase

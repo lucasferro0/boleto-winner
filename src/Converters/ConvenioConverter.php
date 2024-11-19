@@ -1,9 +1,9 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Converters;
+namespace BoletoWinner\Converters;
 
-use Claudsonm\BoletoWinner\Bill;
-use Claudsonm\BoletoWinner\Convenio;
+use BoletoWinner\Bill;
+use BoletoWinner\Convenio;
 
 class ConvenioConverter implements Converter
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Factories;
+namespace BoletoWinner\Factories;
 
-use Claudsonm\BoletoWinner\Bill;
-use Claudsonm\BoletoWinner\Boleto;
-use Claudsonm\BoletoWinner\Convenio;
-use Claudsonm\BoletoWinner\Exceptions\BoletoWinnerException;
+use BoletoWinner\Bill;
+use BoletoWinner\Boleto;
+use BoletoWinner\Convenio;
+use BoletoWinner\Exceptions\BoletoWinnerException;
 
 class BillFactory
 {

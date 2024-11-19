@@ -1,10 +1,10 @@
 <?php
 
-namespace Claudsonm\BoletoWinner;
+namespace BoletoWinner;
 
 use BadMethodCallException;
-use Claudsonm\BoletoWinner\Exceptions\BoletoWinnerException;
-use Claudsonm\BoletoWinner\Factories\BillFactory;
+use BoletoWinner\Exceptions\BoletoWinnerException;
+use BoletoWinner\Factories\BillFactory;
 
 /**
  * @method static bool isValidBoleto(string $barcodeOrWritableLine)
