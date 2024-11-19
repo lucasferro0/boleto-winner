@@ -23,15 +23,15 @@ que vez ou outra temos de digitar manualmente é na verdade
 
 ![Conta de convênio](resources/samples/sample_darf.png)
 
-## Installation
+## Instalação
 
-You can install the package via composer:
+Você pode instalar o pacote via composer:
 
 ```bash
 composer require lucasferro0/boleto-winner
 ```
 
-## Usage
+## Uso
 
 ``` php
 // Converte linha digitável para código de barras
@@ -52,21 +52,21 @@ BoletoWinner::toWritableLine($barcode);
 
 ```
 
-### Testing
+### Testando
 
 ``` bash
 composer test
 ```
 
-### Security
+### Segurança
 
 Se você descobrir qualquer problema relacionado à segurança, envie um e-mail para lucasferrobrandao@gmail.com em vez de usar o rastreador de issues.
 
-## Credits
+## Créditos
 
 - [Lucas Ferro](https://github.com/lucasferro0)
 - [All Contributors](../../contributors)
 
-## License
+## Licença
 
 Por favor, veja [License File](LICENSE.md) para mais informações.
