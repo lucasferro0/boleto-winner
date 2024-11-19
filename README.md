@@ -36,11 +36,11 @@ composer require lucasferro0/boleto-winner
 ``` php
 // Converte linha digitável para código de barras
 
-BoletoWinner::toBarcode($writableLine)
+BoletoWinner::toBarcode($writableLine);
 
 // Converte código de barra para linha digitável
 
-BoletoWinner::toWritableLine($barcode)
+BoletoWinner::toWritableLine($barcode);
 
 // Valida código de barra de boleto bancário
 
