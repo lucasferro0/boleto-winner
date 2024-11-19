@@ -1,6 +1,6 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Validators;
+namespace BoletoWinner\Validators;
 
 class BoletoValidator implements Validator
 {

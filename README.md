@@ -1,10 +1,5 @@
 # Boleto Winner
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/claudsonm/boleto-winner?logo=composer)](https://packagist.org/packages/claudsonm/boleto-winner)
-[![CI](https://img.shields.io/github/workflow/status/claudsonm/boleto-winner/CI?label=CI&logo=github-actions&logoColor=fff&labelColor=2088FF)](https://github.com/claudsonm/boleto-winner/actions?query=workflow%3ACI+branch%3Amaster)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/claudsonm/boleto-winner?logo=scrutinizer-CI&labelColor=8A9296&logoColor=fff)](https://scrutinizer-ci.com/g/claudsonm/boleto-winner/?branch=master)
-[![Code Quality](https://img.shields.io/scrutinizer/quality/g/claudsonm/boleto-winner?logo=scrutinizer-ci&labelColor=8A9296&logoColor=fff)](https://scrutinizer-ci.com/g/claudsonm/boleto-winner/?branch=master)
-
 Pacote para validar, converter e obter dados contidos nos códigos de barra de
 boletos e convênios.
 
@@ -28,43 +23,50 @@ que vez ou outra temos de digitar manualmente é na verdade
 
 ![Conta de convênio](resources/samples/sample_darf.png)
 
-## Installation
+## Instalação
 
-You can install the package via composer:
+Você pode instalar o pacote via composer:
 
 ```bash
-composer require claudsonm/boleto-winner
+composer require lucasferro0/boleto-winner
 ```
 
-## Usage
+## Uso
 
 ``` php
-// Usage description here
+// Converte linha digitável para código de barras
+
+BoletoWinner::toBarcode($writableLine);
+
+// Converte código de barra para linha digitável
+
+BoletoWinner::toWritableLine($barcode);
+
+// Valida código de barra de boleto bancário
+
+(new BoletoValidator())->verifyBarcode($barcode);
+
+// Valida código de barra de boleto de convênio
+
+(new ConvenioValidator())->verifyBarcode($barcode);
+
 ```
 
-### Testing
+### Testando
 
 ``` bash
 composer test
 ```
 
-### Changelog
+### Segurança
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Se você descobrir qualquer problema relacionado à segurança, envie um e-mail para lucasferrobrandao@gmail.com em vez de usar o rastreador de issues.
 
-## Contributing
+## Créditos
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email claudson@outlook.com instead of using the issue tracker.
-
-## Credits
-
-- [Claudson Martins](https://github.com/claudsonm)
+- [Lucas Ferro](https://github.com/lucasferro0)
 - [All Contributors](../../contributors)
 
-## License
+## Licença
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Por favor, veja [License File](LICENSE.md) para mais informações.

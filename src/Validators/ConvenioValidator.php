@@ -1,8 +1,8 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Validators;
+namespace BoletoWinner\Validators;
 
-use Claudsonm\BoletoWinner\Convenio;
+use BoletoWinner\Convenio;
 
 class ConvenioValidator implements Validator
 {
@@ -54,7 +54,7 @@ class ConvenioValidator implements Validator
     public function verifyBarcode(string $barcode): bool
     {
         $barcode = preg_replace('/[^0-9]/', '', $barcode);
-        
+
         if (strlen($barcode) != 44) {
             return false;
         }
