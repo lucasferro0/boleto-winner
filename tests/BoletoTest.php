@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class BoletoTest extends TestCase
 {
-    protected array $validBoletos;
+    protected static array $validBoletos;
 
     /** @test */
     public function it_can_set_the_properties_using_the_fluent_api()
@@ -81,9 +81,9 @@ class BoletoTest extends TestCase
         $this->assertFalse($boleto->isBarcodeValid());
     }
 
-    public function collectionOfValidBoletos()
+    public static function collectionOfValidBoletos()
     {
-        if (empty($this->validBoletos)) {
+        if (empty(self::$validBoletos)) {
             $file = file_get_contents(__DIR__.'/Fixtures/boletos/valid_writable_lines_and_barcodes.json');
             $boletos = json_decode($file, true);
 
@@ -93,9 +93,9 @@ class BoletoTest extends TestCase
                 $line = str_replace(['.', ' '], '', $line);
                 $content[] = [$line, $boleto['barcode']];
             }
-            $this->validBoletos = $content;
+            self::$validBoletos = $content;
         }
 
-        return $this->validBoletos;
+        return self::$validBoletos;
     }
 }
