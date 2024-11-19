@@ -1,11 +1,11 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Tests;
+namespace BoletoWinner\Tests;
 
 use BadMethodCallException;
-use Claudsonm\BoletoWinner\Bill;
-use Claudsonm\BoletoWinner\Boleto;
-use Claudsonm\BoletoWinner\BoletoWinner;
+use BoletoWinner\Bill;
+use BoletoWinner\Boleto;
+use BoletoWinner\BoletoWinner;
 use PHPUnit\Framework\TestCase;
 
 class BoletoWinnerTest extends TestCase

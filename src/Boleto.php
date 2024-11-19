@@ -1,11 +1,11 @@
 <?php
 
-namespace Claudsonm\BoletoWinner;
+namespace BoletoWinner;
 
-use Claudsonm\BoletoWinner\Converters\BoletoConverter;
-use Claudsonm\BoletoWinner\Converters\Converter;
-use Claudsonm\BoletoWinner\Validators\BoletoValidator;
-use Claudsonm\BoletoWinner\Validators\Validator;
+use BoletoWinner\Converters\BoletoConverter;
+use BoletoWinner\Converters\Converter;
+use BoletoWinner\Validators\BoletoValidator;
+use BoletoWinner\Validators\Validator;
 
 class Boleto extends Bill
 {

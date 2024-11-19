@@ -1,11 +1,11 @@
 <?php
 
-namespace Claudsonm\BoletoWinner\Tests;
+namespace BoletoWinner\Tests;
 
-use Claudsonm\BoletoWinner\Boleto;
-use Claudsonm\BoletoWinner\Convenio;
-use Claudsonm\BoletoWinner\Exceptions\BoletoWinnerException;
-use Claudsonm\BoletoWinner\Factories\BillFactory;
+use BoletoWinner\Boleto;
+use BoletoWinner\Convenio;
+use BoletoWinner\Exceptions\BoletoWinnerException;
+use BoletoWinner\Factories\BillFactory;
 use PHPUnit\Framework\TestCase;
 
 class BillFactoryTest extends TestCase
